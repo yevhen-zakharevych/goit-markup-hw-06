@@ -282,6 +282,7 @@ img {
   width: 100vw;
   height: 100vh;
   padding: 40px;
+  padding-right: 35px;
   padding-top: 80px;
   background-color: var(--color-white);
   z-index: 999;
