@@ -406,6 +406,7 @@ img {
     padding-top: 100px;
     padding-bottom: 100px;
     flex-wrap: nowrap;
+    gap: unset;
   }
 }
 
@@ -720,6 +721,17 @@ img {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: left;
+  }
+}
+
+.advantages-item p {
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1158px) {
+  .advantages-item p {
+    font-weight: 400;
   }
 }
 
